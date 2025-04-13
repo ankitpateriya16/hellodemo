@@ -4,10 +4,9 @@ user the this file setup-jenkins.sh for java and jenkins and docker-setup for do
 
 Expose the application on the respective ports so that the user can access the deployed application and open tcp port for azure VM
 
-Use the required plugins to run the build :- 
-install maven pluging -
-1.go to manage jenkins => pluging => available pluging => search maven and install maven integration pluging. 
-2.go to manage jenkins => tool => add maven in bottom => give uniqe name and save it 
+Use the required plugins to run the build:-  
+1. go to manage jenkins => pluging => available pluging => search maven and install maven integration pluging.  
+2. go to manage jenkins => tool => add maven in bottom => give uniqe name and save it 
 
 create pipeline:- 
 1. new item => give name of the project => select pipeline and save. 
