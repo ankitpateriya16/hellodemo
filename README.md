@@ -1,4 +1,5 @@
 Install and configure the Jenkins architecture on Azure VM
+>user the this file setup-jenkins.sh for java and jenkins and docker-setup for docker installation
 Use the required plugins to run the build 
   > install maven pluging
       > go to manage jenkins => pluging => available pluging => search maven and install maven integration pluging 
