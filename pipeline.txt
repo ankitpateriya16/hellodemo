@@ -38,7 +38,7 @@ pipeline {
         stage('Package and Build Docker Image') {
             steps {
                 echo '🐳 Building Docker image...'
-                sh 'mvn package spring-boot:repackage -DskipTests'
+                sh 'mvn package -DskipTests'
                 sh "docker build -t ${DOCKER_IMAGE} ."
             }
         }
