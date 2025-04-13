@@ -1,4 +1,3 @@
-
 Install and configure the Jenkins architecture on Azure VM
 Use the required plugins to run the build 
   > install maven pluging
@@ -9,12 +8,12 @@ create pipeline
   > select project => configure => add below pileline and save
   > than build now to run the pipeline
 
+below is pipeline code 
  pipeline {
     agent any
-
     tools {
         maven 'mvn' 
-    }
+        }
     options {
     timeout(time: 3, unit: 'MINUTES')  // Auto-abort after 15 min
     }
