@@ -8,7 +8,8 @@ create pipeline
   > select project => configure => add below pileline and save
   > than build now to run the pipeline
 
-below is pipeline code 
+**below is pipeline code **
+
  pipeline {
     agent any
     tools {
