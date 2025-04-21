@@ -19,11 +19,13 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-maven-plugin</artifactId>
       <version>3.2.4</version>
-        <archive>
-            <manifest>
-               <mainClass>com.example.HelloApplication</mainClass> <!-- Replace with your main class -->
-            </manifest>
-        </archive>
+       <configuration>
+                <archive>
+                    <manifest>
+                        <mainClass>com.example.MainClass</mainClass> <!-- Replace with your main class -->
+                    </manifest>
+                </archive>
+            </configuration>
     </plugin>
   </plugins>
 </build>
