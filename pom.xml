@@ -15,19 +15,16 @@
   </dependencies>
   <build>
     <plugins>
-        <plugin>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-maven-plugin</artifactId>
-            <version>3.2.4</version> 
-            <configuration>
-                <archive>
-                    <manifest>
-                        <mainClass>com.example.HelloApplication</mainClass> <!-- Replace with your main class -->
-                    </manifest>
-                </archive>
-            </configuration>
-        </plugin>
-    </plugins>
+         <build>
+  <plugins>
+    <plugin>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-maven-plugin</artifactId>
+      <version>3.2.4</version>
+    </plugin>
+  </plugins>
+</build>
+
 </build>
 </project>
 
